@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumni Registration</title>
+</head>
+<style>
+  .i{
+    border: 2px solid ;
+    border-color: black;
+  }
+ .b1{
+   
+   font-family: Arial, Helvetica, sans-serif;
+   border: 8px solid red;
+  border-radius: 10px;
+  padding: 1%;
+   border-color: rgb(175, 45, 19);
+   border-radius:auto;
+   color: maroon;
+   background-color: bisque;
+   margin-top: 5%;
+   
+
+  
+}
+#f1{
+ 
+  border-style: solid ;
+  border-color: rgb(233, 131, 72);
+  border-width: 50px;
+  
+
+  padding-bottom: 20%;
+  padding-right: 5%;
+  padding-left: 13%;
+  padding-top: 5%;
+   outline-style: solid;
+ outline: thin ;
+  outline-color: rgb(245, 80, 163);
+  font-size: larger;
+
+}
+#ai{
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  bottom: 4px;
+
+ 
+}
+
+</style>
+<body bgcolor="beige">
+ <div>
+  <hr>
+    <img src="https://vaave.s3.amazonaws.com/assets/site_content/151462162/logo-cms.png" alt="Alumni" width="650px" >
+  </div>
+   <div id="f1">
+     
+       <form  action="rection.php"  >
+         
+          <h2>Candidate Details</h2>
+            <label for ="canid"> <b>Candidate Name</b><br>
+            <input type="text" id ="canid"  name="" placeholder="Enter your name" >
+            </label><br>
+                <label for ="emailid"> <b>Email</b><br>
+                   <input type="text"  name ="" id ="emailid"   >
+                </label><br>
+              
+             <label for ="comid"> <b>Company</b><br>
+               <input type="text"  name ="" id ="comid" >
+             </label><br>
+                <label for ="cpid"> <b>Current Position</b><br>
+                    <input type="text"  name ="" id ="cpid"  >
+                </label><br>
+                <br>
+                
+              <select id="br" name="Branch">
+                  <option value ="no">Branch</option>
+                  <option value="cse"> Computer Science and Engineering </option>
+                  <option value ="ds">Data Science </option>
+                  <option value="AIML" >Artificial Intelligence</option>C
+                  <option value="Cs" >Cyber Security </option>
+
+
+              </select>  
+              <select id ="yr" name ="batch">
+                <option value ="no">Batch</option>
+            <option value="">2012-2016</option>
+            <option value="">2016-2020</option>
+            <option value="">2020-2024</option>
+            <option value="">2024-2028</option>
+            <option value="">2032-2036</option>
+              </select><br><br>
+
+          <label for="gen"><b>Gender</b>
+              <input type="radio" name="c" id="gen" >Male
+              <input type="radio" name="c" id="gen" >Female
+              <input type="radio" name="c" id="gen" >Other 
+
+<br>
+          </label>
+           <br><b>Upload Resume </b>
+           <label for ="file">
+           <input accept=".pdf,.doc" name="res" id="file" type="file" value="Browse">
+        </label>
+
+<br>
+
+     <button class="b1" type="submit" action="rajeshthakare631@gmail.com" >Submit</button>
+     <div id="ai">
+     <img src="download.png" >
+    </div>
+ 
+  
+        </form>
+      </div>
+     
+</body>
+</html>
